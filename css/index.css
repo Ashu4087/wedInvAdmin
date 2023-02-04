@@ -1,24 +1,6 @@
 body {
   margin: 0px;
 }
-.navbar {
-  height: 60px;
-  width: 100vw;
-  background: grey;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0px;
-  padding: 0px;
-}
-li {
-  display: inline;
-  margin: 0px 40px;
-  align-items: center;
-}
-li a:hover {
-  background-color: #fff;
-}
-
 .contacts-details {
   display: flex;
 }
@@ -28,9 +10,8 @@ li a:hover {
   width: 70%;
 }
 #table-heading {
-  display: inline-block;
-  margin-left: 40%;
-  border-bottom: 2px solid #aaa8a8;
+  text-align: center;
+  margin: 16px 0px;
   padding-bottom: 5px;
 }
 td,
@@ -39,6 +20,3 @@ th {
   text-align: left;
   padding: 8px;
 }
-/* .add-contact {
-  display: none;
-} */
