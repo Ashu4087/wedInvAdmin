@@ -46,8 +46,8 @@ const fillTable = async () => {
     const row = table.insertRow(-1);
     const cell1 = row.insertCell(-1);
     cell1.innerHTML = contArr[i].name;
-    const cell2 = row.insertCell(-1);
-    cell2.innerHTML = contArr[i].relation;
+    // const cell2 = row.insertCell(-1);
+    // cell2.innerHTML = contArr[i].relation;
     const cell3 = row.insertCell(-1);
     cell3.innerHTML = contArr[i].place;
     const cell4 = row.insertCell(-1);

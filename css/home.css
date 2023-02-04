@@ -19,6 +19,26 @@ li a:hover {
   background-color: #fff;
 }
 
+.contacts-details {
+  display: flex;
+}
+#contact-table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 70%;
+}
+#table-heading {
+  display: inline-block;
+  margin-left: 40%;
+  border-bottom: 2px solid #aaa8a8;
+  padding-bottom: 5px;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
 /* .add-contact {
   display: none;
 } */

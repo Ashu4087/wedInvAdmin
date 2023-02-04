@@ -37,7 +37,7 @@ const postLoginData = async (userLoginData) => {
     }
     const data = await res.json();
     if (data.auth) {
-      window.location.replace('../html/home.html');
+      window.location.replace('./home.html');
     }
     console.log('Success Resopnose from server', data);
   } catch (err) {
